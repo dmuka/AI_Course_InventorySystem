@@ -17,13 +17,13 @@ To download the project and run it in your local environment, please follow the 
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/yourgithubusername/yourrepositoryname
+   git clone https://github.com/dmuka/AI_Course_InventorySystem
    ```
 
 2. **Change to the directory that was just created**
 
    ```bash
-   cd yourrepositoryname
+   cd AI_Course_InventorySystem
    ```
    
 3. **Install the necessary NuGet packages**
@@ -32,10 +32,10 @@ To download the project and run it in your local environment, please follow the 
 
 4. **Add PostgreSQL database connection string**
 
-   Open `appsettings.json` and replace `"InventoryContext"` value with your PostgreSQL connection string. The connection string generally looks like:
+   Open `appsettings.json` and replace `"InventoryDbContext"` value with your PostgreSQL connection string. The connection string generally looks like:
     
    ```
-   Host=localhost;Database=your_database;Username=your_username;Password=your_password
+   Host=localhost;Database=InventoryDb;Username=postgres;Password=password
    ```
 
 5. **Update database**
