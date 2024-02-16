@@ -17,7 +17,7 @@ To download the project and run it in your local environment, please follow the 
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/dmuka/AI_Course_InventorySystem
+   git clone https://dmuka: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@github.com/dmuka/AI_Course_InventorySystem.git
    ```
 
 2. **Change to the directory that was just created**
