@@ -5,10 +5,14 @@ namespace AI_Course_InventorySystem
 {
     public class InventoryDbContext : DbContext
     {
+        public InventoryDbContext() : base()
+        {
+        }
+
         public InventoryDbContext(DbContextOptions<InventoryDbContext> options) : base(options)
         {
         }
 
-        public DbSet<Product> Products { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
     }
 }

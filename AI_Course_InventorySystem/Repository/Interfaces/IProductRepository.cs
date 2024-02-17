@@ -5,7 +5,7 @@ namespace AI_Course_InventorySystem.Repository.Interfaces
     public interface IProductRepository
     {
         IEnumerable<Product> GetProducts();
-        Product GetProductById(int productId);
+        Product? GetProductById(int productId);
         void InsertProduct(Product product);
         void DeleteProduct(int productId);
         void UpdateProduct(Product product);

@@ -18,7 +18,7 @@ namespace AI_Course_InventorySystem.Repository.Implementations
             return _context.Products.ToList();
         }
 
-        public Product GetProductById(int productId)
+        public Product? GetProductById(int productId)
         {
             return _context.Products.Find(productId);
         }
