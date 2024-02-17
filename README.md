@@ -17,7 +17,7 @@ To download the project and run it in your local environment, please follow the 
 1. **Clone the repository**
 
    ```
-   git clone https://dmuka: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@github.com/dmuka/AI_Course_InventorySystem.git
+   git clone https://dmuka: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@github.com/dmuka/AI_Course_InventorySystem.git
    ```
 
 2. **Change to the directory that was just created**
@@ -58,3 +58,18 @@ The application should now be up and running. If you navigate to `https://localh
 - **Product Management**: The main feature of this application is to manage the products in the inventory. It supports adding new products, updating existing products, retrieving the list and details of products, and removing products from the inventory.
 
 Enjoy using the Inventory Management Application!
+
+- Was it easy to complete the task using AI?
+Yep
+ 
+- How long did task take you to complete? (Please be honest, we need it to gather anonymized statistics) 
+~1 hour
+
+- Was the code ready to run after generation? What did you have to change to make it usable?
+Connection string and db context name
+
+- Which challenges did you face during completion of the task?
+Using AI requires split requirements into small and clearly formulated steps
+
+- Which specific prompts you learned as a good practice to complete the task?
+Look at previous answer
