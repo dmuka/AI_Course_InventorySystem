@@ -58,18 +58,3 @@ The application should now be up and running. If you navigate to `https://localh
 - **Product Management**: The main feature of this application is to manage the products in the inventory. It supports adding new products, updating existing products, retrieving the list and details of products, and removing products from the inventory.
 
 Enjoy using the Inventory Management Application!
-
-- Was it easy to complete the task using AI?
-Yep
- 
-- How long did task take you to complete? (Please be honest, we need it to gather anonymized statistics) 
-~1 hour
-
-- Was the code ready to run after generation? What did you have to change to make it usable?
-Connection string and db context name
-
-- Which challenges did you face during completion of the task?
-Using AI requires split requirements into small and clearly formulated steps
-
-- Which specific prompts you learned as a good practice to complete the task?
-Look at previous answer
